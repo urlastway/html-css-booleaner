@@ -7,11 +7,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0;
-    margin-left: 5px;
 }
-section{
-    margin: 5;
-}
+
 /*INTRO*/
 .header__inner{
     background-image: url("../img/pattern.png");
@@ -63,10 +60,39 @@ table{
     background-color: rgb(57, 126, 255);
     color: white;
 }
-.td__size{
-    width: 300px;
-}
 .tr__style_2{
-    background-color: white;
+    background-color: aliceblue;
+}
+td{
+    width: 450px;
 }
 /*F.TABLE*/
+
+/*FOOTER*/
+.footer__text{
+    color:gray;
+    padding-bottom: 30px;
+}
+a{
+    color:white;
+    text-align: left;
+    text-decoration: none;
+    font-style: bold;
+}
+.footer_1{
+    background-image: url("../img/monitor.jpg");  
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 100%;
+}
+.footer_2{
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 100%;
+}
+/*/FOOTER*/
