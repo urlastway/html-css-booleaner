@@ -2,14 +2,15 @@ body {
     background-color: white;
     text-align: left;
     margin: 0;
-    font-family: lato;
-    font-size: 300;
+    font-family: 'Lato';
+    font-style: 300;
 }
 h1, h2, h3, h4, h5, h6{
-    margin: 0px;
+    margin: 0;
+    margin-left: 5px;
 }
 section{
-    margin: 12px;
+    margin: 5;
 }
 /*INTRO*/
 .header__inner{
@@ -21,21 +22,51 @@ section{
 #img__inner{
     width: 500px;
     margin-top: 100px;
-    margin-left: 12px;
 }
 /*F.INTRO*/
 
 /*TITOLO*/
 .titolo{
     font-size: 40px;
-    margin: 12px;
-    
 }
 .sottotitolo{
-    margin-left: 12px;
     color:gray;   
 }
 #t_booleaner{
     color: skyblue;
 }
 /*F.TITOLO*/
+/*FIRST_PART*/
+.img_tim{
+    margin-top: 30px;
+}
+.center_text{
+    font-size: 18px;
+}
+.testo_yellow{
+    background-color: yellow;
+}
+ul {
+    padding-left: 20px;
+}
+/*F.FIRST_PART*/
+
+/*TABLE*/
+table{
+    font-size: 18px;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background-color: skyblue;
+}
+.table__head {
+    background-color: rgb(57, 126, 255);
+    color: white;
+}
+.td__size{
+    width: 300px;
+}
+.tr__style_2{
+    background-color: white;
+}
+/*F.TABLE*/
